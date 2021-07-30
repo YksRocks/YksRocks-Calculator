@@ -1,0 +1,29 @@
+@keyframes colorChange3 {
+  from {
+    transform: translateX(30%);
+  }
+  to {
+    transform: translateX(59%);
+  }
+}
+
+.colorChange3 {
+  animation: colorChange3 250ms ease-in-out forwards;
+}
+
+@keyframes RcolorChange3 {
+  from {
+    transform: translateX(59%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.RcolorChange3 {
+  animation: RcolorChange3 250ms ease-in-out forwards;
+}
+
+.toggle__numbers span {
+  cursor: pointer;
+}

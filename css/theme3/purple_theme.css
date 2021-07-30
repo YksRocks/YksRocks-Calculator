@@ -1,0 +1,74 @@
+body {
+  background-color: var(--VeryDarkViolet1) !important;
+}
+
+.theme__changer h2 {
+  color: var(--LightYellow);
+}
+
+.toggle__slide svg path {
+  stroke: var(--VeryDarkViolet2);
+}
+
+.toggle__slide svg circle {
+  fill: var(--PureCyan);
+}
+
+.changer span {
+  color: var(--LightYellow);
+}
+
+.result-nums .result {
+  background-color: var(--VeryDarkViolet2) !important;
+}
+
+.result a {
+}
+
+.result a,
+.theme2_resultV {
+  color: var(--LightYellow) !important;
+}
+.result #result-history,
+.theme2_resultH {
+  color: hsl(0, 0%, 61%) !important;
+}
+
+.numbers {
+  background-color: var(--VeryDarkViolet2) !important;
+}
+
+.numbers button {
+  background-color: var(--VeryDarkViolet);
+  border: none;
+
+  border-bottom: 4px solid var(--DarkMagenta);
+}
+
+.numbers button p {
+  color: var(--LightYellow);
+}
+
+.resetbtn {
+  background-color: var(--DarkViolet) !important;
+  border-bottom: 4px solid var(--VividMagenta) !important;
+}
+.resetbtn p {
+  color: white !important;
+}
+
+.equalbtn {
+  background-color: var(--PureCyan) !important;
+  border-bottom: 4px solid var(--SoftCyan) !important;
+}
+.equalbtn p {
+  color: var(--VeryDarkBlue) !important;
+}
+
+.del {
+  background-color: var(--DarkViolet) !important;
+  border-bottom: 4px solid var(--VividMagenta) !important;
+}
+.del p {
+  color: white !important;
+}

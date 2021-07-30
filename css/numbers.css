@@ -1,0 +1,122 @@
+.numbers {
+  /* background-color: var(--VeryDarkDesaturatedBlue2); */
+  width: 500px;
+  padding: 2rem;
+  display: grid;
+  grid-template-areas:
+    "seven eight nine del"
+    "four five six addi"
+    "one two three subb"
+    "point zeroo divide multy"
+    "resetbtn resetbtn equalbtn equalbtn";
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.numbers button {
+  /* background-color: rgb(255, 255, 255); */
+  width: 5.5rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  cursor: pointer;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.numbers button p {
+  padding: 0;
+  margin: 0;
+  height: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.del {
+  grid-area: del;
+}
+
+.del {
+  /* background-color: var(--DesaturatedDarkBlue1) !important; */
+  border-radius: 10px;
+  /* color: white; */
+  /* border-color: var(--DesaturatedDarkBlue2); */
+}
+
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.add {
+  grid-area: addi;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.sub {
+  grid-area: subb;
+}
+
+.point {
+  grid-area: point;
+}
+.zero {
+  grid-area: zeroo;
+}
+.divide {
+  grid-area: divide;
+}
+.multy {
+  grid-area: multy;
+}
+
+.reset {
+}
+.equal {
+}
+
+.resetbtn {
+  /* background-color: var(--DesaturatedDarkBlue1) !important; */
+  /* border-color: var(--DesaturatedDarkBlue2); */
+  /* color: white; */
+  border-radius: 10px;
+  grid-area: resetbtn;
+  cursor: pointer;
+  width: auto;
+  width: 13rem !important;
+  /* border-bottom: 2px solid; */
+}
+
+.equalbtn {
+  /* background-color: var(--Red) !important;
+  color: white; */
+  border-radius: 10px;
+  grid-area: equalbtn;
+  cursor: pointer;
+  width: 13rem !important;
+  /* border-color: var(--DarkRed); */
+}

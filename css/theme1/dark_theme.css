@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(222, 26%, 31%) !important;
+}
+
+.toggle__slide svg path {
+  stroke: hsl(223, 31%, 20%);
+}
+
+.toggle__slide svg circle {
+  fill: hsl(6, 63%, 50%);
+}
+
+.result {
+  background-color: var(--VeryDarkDesaturatedBlue3) !important;
+}
+
+.result-nums .result {
+  background-color: var(--VeryDarkDesaturatedBlue3) !important;
+}
+
+.result a {
+  color: white !important;
+}
+
+.result a:nth-of-type(1) {
+  color: rgb(170, 170, 170) !important;
+}
+
+.numbers {
+  background-color: var(--VeryDarkDesaturatedBlue2) !important;
+}
+
+.numbers button {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 4px solid hsl(0, 0%, 68%);
+}
+
+.numbers button p {
+  color: hsl(220, 7%, 9%);
+}
+
+.del {
+  background-color: var(--DesaturatedDarkBlue1) !important;
+  color: white !important;
+  border-color: var(--DesaturatedDarkBlue2);
+  border-bottom: 4px solid hsl(222, 26%, 31%) !important;
+}
+.del p {
+  color: white !important;
+}
+
+.resetbtn {
+  background-color: var(--DesaturatedDarkBlue1) !important;
+  border-color: var(--DesaturatedDarkBlue2);
+  color: white !important;
+  border-bottom: 4px solid hsl(222, 26%, 31%) !important;
+}
+
+.resetbtn p {
+  color: white !important;
+}
+
+.equalbtn {
+  background-color: var(--Red) !important;
+  color: white !important;
+  border-color: var(--DarkRed);
+  border-bottom: 4px solid hsl(6, 70%, 34%) !important;
+}
+
+.equalbtn p {
+  color: white !important;
+}
+
+.theme__changer h2 {
+  color: white;
+}
+
+.changer span {
+  color: white;
+}

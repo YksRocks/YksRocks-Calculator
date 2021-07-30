@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/changer.css" />
+    <link rel="stylesheet" href="css/numbers.css" />
+    <link rel="stylesheet" href="css/result.css" />
+
+    <link rel="stylesheet" id="stylee" href="css/theme1/dark_theme.css" />
+
+    <link rel="stylesheet" href="css/theme2/animation2.css" />
+    <link rel="stylesheet" href="css/theme3/animation3.css" />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="theme__changer">
+        <h2 class="calc">calc</h2>
+
+        <a class="changer">
+          <span class="th">THEME</span>
+
+          <div class="toggle">
+            <div class="toggle__numbers">
+              <span class="one">1</span>
+              <span class="two">2</span>
+              <span class="three">3</span>
+            </div>
+            <div class="toggle__slide">
+              <svg
+                width="109"
+                height="39"
+                viewBox="0 0 109 39"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="Scroll">
+                  <g id="Rectangle 3">
+                    <mask id="path-1-inside-1" fill="white">
+                      <path
+                        d="M19.3227 39C8.65108 39 0 30.3489 0 19.6773V19.6773C0 9.00562 8.65108 0.354545 19.3227 0.354545L89.6773 0.354545C100.349 0.354545 109 9.00562 109 19.6773V19.6773C109 30.3489 100.349 39 89.6773 39L53.9657 39H19.3227Z"
+                      />
+                    </mask>
+                    <path
+                      d="M19.3227 39C8.65108 39 0 30.3489 0 19.6773V19.6773C0 9.00562 8.65108 0.354545 19.3227 0.354545L89.6773 0.354545C100.349 0.354545 109 9.00562 109 19.6773V19.6773C109 30.3489 100.349 39 89.6773 39L53.9657 39H19.3227Z"
+                      stroke="#637097"
+                      stroke-width="40"
+                      mask="url(#path-1-inside-1)"
+                    />
+                  </g>
+                  <circle
+                    class="hello2"
+                    id="Ellipse 1"
+                    cx="20.5574"
+                    cy="19.7213"
+                    r="13.7459"
+                    transform="rotate(-90 20.5574 19.7213)"
+                    fill="hsl(6, 63%, 50%)"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="result-nums">
+        <div class="result">
+          <a id="result-history" class="rH"></a>
+          <a id="result-value"></a>
+        </div>
+
+        <div class="numbers">
+          <button class="seven"><p>7</p></button>
+          <button class="eight"><p>8</p></button>
+          <button class="nine"><p>9</p></button>
+          <button class="del"><p>DEL</p></button>
+
+          <button class="four"><p>4</p></button>
+          <button class="five"><p>5</p></button>
+          <button class="six"><p>6</p></button>
+          <button class="addi"><p>+</p></button>
+
+          <button class="one"><p>1</p></button>
+          <button class="two"><p>2</p></button>
+          <button class="three"><p>3</p></button>
+          <button class="subb"><p>-</p></button>
+
+          <button class="point"><p>.</p></button>
+          <button class="zeroo"><p>0</p></button>
+          <button class="divide"><p>/</p></button>
+          <button class="multy"><p>x</p></button>
+
+          <button class="resetbtn"><p>RESET</p></button>
+
+          <button class="equalbtn"><p>=</p></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Yash Kumar Singh</a>.
+    </div>
+
+    <script src="app1.js"></script>
+    <script src="theme.js"></script>
+  </body>
+</html>

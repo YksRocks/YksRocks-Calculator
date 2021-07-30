@@ -1,0 +1,85 @@
+body,
+.theme2_body {
+  background-color: var(--LightGray) !important;
+}
+
+.theme__changer h2,
+.theme2_calc {
+  color: var(--VeryDarkGrayishYellow);
+}
+
+.toggle__slide svg path,
+.theme2_circle {
+  stroke: var(--GrayishRed);
+}
+
+.changer span,
+.theme2_theme {
+  color: var(--VeryDarkGrayishYellow);
+}
+
+.result-nums .result,
+.theme2_result {
+  background-color: var(--VeryLightGray) !important;
+}
+
+.result a,
+.theme2_resultV {
+  color: var(--VeryDarkGrayishYellow) !important;
+}
+.result #result-history,
+.theme2_resultH {
+  color: hsl(0, 0%, 61%) !important;
+}
+
+.numbers,
+.theme2_num {
+  background-color: var(--GrayishRed) !important;
+}
+
+.numbers button,
+.theme2_but {
+  background-color: var(--LightGrayishYellow);
+  border: none;
+  border-bottom: 4px solid var(--DarkGrayishOrange);
+}
+.resetbtn,
+.theme2_rbut {
+  background-color: var(--DarkModerateCyan) !important;
+  border-bottom: 4px solid var(--VeryDarkCyan) !important;
+}
+
+.resetbtn p,
+.theme2_rbut {
+  color: white !important;
+}
+
+.equalbtn,
+.theme2_ebut {
+  background-color: var(--Orange) !important;
+  border-bottom: 4px solid var(--DarkOrange) !important;
+}
+
+.equalbtn p,
+.theme2_ebut {
+  color: white !important;
+}
+
+.del,
+.theme2_dbut {
+  background-color: var(--DarkModerateCyan) !important;
+  border-bottom: 4px solid var(--VeryDarkCyan) !important;
+}
+
+.del p,
+.theme2_dbut {
+  color: white !important;
+}
+
+.toggle__slide svg circle {
+  fill: hsl(25, 98%, 40%);
+}
+
+.numbers button p {
+  color: black;
+}

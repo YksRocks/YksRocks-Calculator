@@ -1,0 +1,17 @@
+@keyframes colorChange2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(30%);
+  }
+}
+
+.hello2 {
+  transition: all 250ms ease-in-out;
+}
+
+.colorChange {
+  transform: translateX(30%);
+  /* animation: colorChange2 250ms ease-in-out forwards; */
+}
