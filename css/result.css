@@ -32,9 +32,6 @@
   /* color: rgb(170, 170, 170); */
 }
 
-.result a:last-child {
-}
-
 .none {
   display: none;
 }
@@ -44,8 +41,6 @@
 }
 
 @media (max-width: 30em) and (min-width: 22.5em) {
-  html {
-  }
   body {
     overflow-x: hidden;
   }
@@ -108,8 +103,6 @@
     cursor: pointer;
   }
 
-  #path {
-  }
   .toggle__slide svg {
     width: 66px;
     height: 20px;
@@ -123,8 +116,6 @@
 }
 
 @media (max-width: 22.6em) and (min-width: 20em) {
-  html {
-  }
   body {
     overflow-x: hidden;
   }
@@ -187,8 +178,6 @@
     cursor: pointer;
   }
 
-  #path {
-  }
   .toggle__slide svg {
     width: 66px;
     height: 20px;
@@ -202,8 +191,6 @@
 }
 
 @media (max-width: 20.5em) and (min-width: 15em) {
-  html {
-  }
   body {
     overflow-x: hidden;
   }
@@ -266,8 +253,6 @@
     cursor: pointer;
   }
 
-  #path {
-  }
   .toggle__slide svg {
     width: 66px;
     height: 20px;
@@ -281,8 +266,6 @@
 }
 
 @media (max-width: 20.5em) and (min-width: 18em) {
-  html {
-  }
   body {
     overflow-x: hidden;
   }
@@ -345,8 +328,6 @@
     cursor: pointer;
   }
 
-  #path {
-  }
   .toggle__slide svg {
     width: 66px;
     height: 20px;
@@ -360,8 +341,6 @@
 }
 
 @media (max-width: 18em) {
-  html {
-  }
   /* 88 */
   body {
     overflow-x: hidden;
@@ -425,8 +404,6 @@
     cursor: pointer;
   }
 
-  #path {
-  }
   .toggle__slide svg {
     width: 66px;
     height: 20px;
