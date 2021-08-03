@@ -201,7 +201,7 @@
   }
 }
 
-@media (max-width: 20.5em) {
+@media (max-width: 20.5em) and (min-width: 15em) {
   html {
   }
   body {
@@ -259,6 +259,164 @@
   }
   .equalbtn {
     width: 9.8rem !important;
+    margin-top: 0 !important;
+  }
+
+  circle {
+    cursor: pointer;
+  }
+
+  #path {
+  }
+  .toggle__slide svg {
+    width: 66px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .changer span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 20.5em) and (min-width: 17.5em) {
+  html {
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .theme__changer {
+    width: 375px;
+    overflow-x: hidden;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    /* overflow-x: hidden; */
+    /* margin: auto; */
+  }
+  .whole {
+    max-width: 375px;
+    margin: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .result {
+    width: 375px;
+    margin: auto;
+    min-height: 150px !important;
+    margin-top: 1rem;
+  }
+  .result a {
+    font-size: 2rem;
+  }
+  .result a:nth-of-type(1) {
+    font-size: 1.2rem;
+  }
+  .numbers {
+    width: 375px;
+    grid-gap: 1px;
+    grid-row-gap: 5px;
+    grid-column-gap: 1px !important;
+    font-size: 1rem;
+    margin-top: 1rem;
+    height: 450px !important;
+    padding: 1.5rem;
+  }
+
+  .numbers button {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .resetbtn {
+    width: 9.8rem !important;
+    margin-top: 0 !important;
+  }
+  .equalbtn {
+    width: 9.8rem !important;
+    margin-top: 0 !important;
+  }
+
+  circle {
+    cursor: pointer;
+  }
+
+  #path {
+  }
+  .toggle__slide svg {
+    width: 66px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .changer span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 17.8em) {
+  html {
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .theme__changer {
+    width: 320px;
+    overflow-x: hidden;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    /* overflow-x: hidden; */
+    /* margin: auto; */
+  }
+  .whole {
+    max-width: 320px;
+    margin: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .result {
+    width: 320px;
+    margin: auto;
+    min-height: 150px !important;
+    margin-top: 1rem;
+  }
+  .result a {
+    font-size: 2rem;
+  }
+  .result a:nth-of-type(1) {
+    font-size: 1.2rem;
+  }
+  .numbers {
+    width: 320px;
+    grid-gap: 1px;
+    grid-row-gap: 5px;
+    grid-column-gap: 1px !important;
+    font-size: 1rem;
+    margin-top: 1rem;
+    height: 450px !important;
+    padding: 1.5rem;
+  }
+
+  .numbers button {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .resetbtn {
+    width: 8.4rem !important;
+    margin-top: 0 !important;
+  }
+  .equalbtn {
+    width: 8.4rem !important;
     margin-top: 0 !important;
   }
 
