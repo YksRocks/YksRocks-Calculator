@@ -1,18 +1,19 @@
 .result {
-  width: 500px;
+  min-width: 200px;
   /* background-color: var(--VeryDarkDesaturatedBlue3); */
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
   justify-content: end;
-  margin-top: 2rem;
+  margin-top: 1.8rem;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
   overflow-x: hidden;
   padding: 2rem;
   word-wrap: break-word;
   word-break: break-all;
-  min-height: 150px;
+  min-height: 152px;
+  /* height: 125px; */
   align-content: center;
   justify-content: center;
 }
@@ -40,4 +41,241 @@
 
 .rH {
   display: none;
+}
+
+@media (max-width: 30em) and (min-width: 22.5em) {
+  html {
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .theme__changer {
+    width: 450px;
+    overflow-x: hidden;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    /* overflow-x: hidden; */
+    /* margin: auto; */
+  }
+  .whole {
+    max-width: 450px;
+    margin: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .result {
+    width: 450px;
+    margin: auto;
+    min-height: 200px !important;
+    margin-top: 1rem;
+  }
+  .result a {
+    font-size: 3rem;
+  }
+  .result a:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+  .numbers {
+    width: 450px;
+    grid-gap: 1px;
+    grid-row-gap: 5px;
+    grid-column-gap: 7px !important;
+    font-size: 1rem;
+    margin-top: 1rem;
+    height: 498px !important;
+    padding: 2rem;
+  }
+
+  .numbers button {
+    width: 4.8rem;
+    height: 4.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .resetbtn {
+    width: 11.2rem !important;
+    margin-top: 0 !important;
+  }
+  .equalbtn {
+    width: 11.2rem !important;
+    margin-top: 0 !important;
+  }
+
+  circle {
+    cursor: pointer;
+  }
+
+  #path {
+  }
+  .toggle__slide svg {
+    width: 66px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .changer span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 22.6em) and (min-width: 20em) {
+  html {
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .theme__changer {
+    width: 420px;
+    overflow-x: hidden;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    /* overflow-x: hidden; */
+    /* margin: auto; */
+  }
+  .whole {
+    max-width: 420px;
+    margin: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .result {
+    width: 420px;
+    margin: auto;
+    min-height: 190px !important;
+    margin-top: 1rem;
+  }
+  .result a {
+    font-size: 3rem;
+  }
+  .result a:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+  .numbers {
+    width: 420px;
+    grid-gap: 1px;
+    grid-row-gap: 5px;
+    grid-column-gap: 7px !important;
+    font-size: 1rem;
+    margin-top: 1rem;
+    height: 495px !important;
+    padding: 2rem;
+  }
+
+  .numbers button {
+    width: 4.8rem;
+    height: 4.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .resetbtn {
+    width: 11.2rem !important;
+    margin-top: 0 !important;
+  }
+  .equalbtn {
+    width: 11.2rem !important;
+    margin-top: 0 !important;
+  }
+
+  circle {
+    cursor: pointer;
+  }
+
+  #path {
+  }
+  .toggle__slide svg {
+    width: 66px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .changer span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 20.5em) {
+  html {
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .theme__changer {
+    width: 375px;
+    overflow-x: hidden;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    /* overflow-x: hidden; */
+    /* margin: auto; */
+  }
+  .whole {
+    max-width: 375px;
+    margin: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .result {
+    width: 375px;
+    margin: auto;
+    min-height: 150px !important;
+    margin-top: 1rem;
+  }
+  .result a {
+    font-size: 2rem;
+  }
+  .result a:nth-of-type(1) {
+    font-size: 1.2rem;
+  }
+  .numbers {
+    width: 375px;
+    grid-gap: 1px;
+    grid-row-gap: 5px;
+    grid-column-gap: 1px !important;
+    font-size: 1rem;
+    margin-top: 1rem;
+    height: 450px !important;
+    padding: 1.5rem;
+  }
+
+  .numbers button {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .resetbtn {
+    width: 9.8rem !important;
+    margin-top: 0 !important;
+  }
+  .equalbtn {
+    width: 9.8rem !important;
+    margin-top: 0 !important;
+  }
+
+  circle {
+    cursor: pointer;
+  }
+
+  #path {
+  }
+  .toggle__slide svg {
+    width: 66px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .changer span {
+    font-size: 0.9rem;
+  }
 }
