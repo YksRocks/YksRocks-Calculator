@@ -235,11 +235,12 @@ for (let i of buttons) {
                         resultHistory.innerText = ''
                         resultHistory.classList.add('rH')
                         dot = dot - 1
-                    } else {
-                        resultValue.innerText = eval(resultHistory.innerText.substr(0,resultHistory.innerText.length-1))
-                        resultHistory.innerText = ''
-                        resultHistory.classList.add('rH')
+                    } else if (resultValue.innerText === '') {
                         dot =0
+                        // resultValue.innerText = eval(resultHistory.innerText.substr(0,resultHistory.innerText.length-1))
+                        // resultHistory.innerText = ''
+                        // resultHistory.classList.add('rH')
+                        
                     }
                     
                 }
